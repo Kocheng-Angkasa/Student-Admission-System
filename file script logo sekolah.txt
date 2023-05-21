@@ -1,0 +1,32 @@
+        <center>
+            <img src="{{ asset($sk->photo) }}" style="width: 200px;">
+        </center>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th>Nama Sekolah</th>
+                            <td>:</td>
+                            <td>{{ $sk->nama }}</td>
+ 
+                            <th style="padding-left: 50px;">Alamat</th>
+                            <td>:</td>
+                            <td>{{ $sk->alamat }}</td>
+                        </tr>
+ 
+                        <tr>
+                            <th>No Telp</th>
+                            <td>:</td>
+                            <td>{{ $sk->no_telp }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+ 
+        <br>
+        <hr>
+        <br>
